@@ -4,5 +4,6 @@ import './index.css';
 import App from './App.js';
 
 // must use this instead of stict mode since I'm not using the ... file
+// const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, document.getElementById('root'))
 
